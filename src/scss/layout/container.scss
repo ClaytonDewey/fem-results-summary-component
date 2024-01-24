@@ -3,14 +3,14 @@
 .container {
   margin: 0 auto;
   width: 100%;
+  background: var(--clr-white);
+  margin-bottom: rem(24);
 
   @include breakpoint(medium) {
     display: flex;
-    background: var(--clr-white);
     border-radius: rem(32);
     height: rem(512);
     width: rem(736);
-    margin-bottom: rem(24);
 
     .results,
     .summary {

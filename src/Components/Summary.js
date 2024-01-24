@@ -44,7 +44,10 @@ const Summary = () => {
         </div>
       </div>
 
-      <button>Continue</button>
+      <button className='btn'>
+        Continue
+        <span className='btn__helper'></span>
+      </button>
     </div>
   );
 };

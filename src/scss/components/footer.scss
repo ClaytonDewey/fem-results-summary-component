@@ -1,6 +1,7 @@
 @use '../util' as *;
 
 .attribution {
+  margin-bottom: rem(24);
   font-size: var(--fs-xsmall);
   text-align: center;
 }

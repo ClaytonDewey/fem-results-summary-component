@@ -52,4 +52,7 @@
   // Flexbox gap/columns
   --gap: #{rem(20)};
   --columns: 2;
+
+  // Transition
+  --transition: all 0.25s ease-in-out;
 }

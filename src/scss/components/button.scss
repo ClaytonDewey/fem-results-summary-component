@@ -1,11 +1,31 @@
 @use '../util' as *;
 
-button {
+.btn {
+  position: relative;
   @include flexcolumn;
+  z-index: 9;
+  cursor: pointer;
   width: 100%;
   height: rem(56);
   border: none;
   background: var(--clr-dark-gray-blue);
   color: var(--clr-white);
   border-radius: rem(128);
+
+  &__helper {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: var(--gradient-main);
+    transition: var(--transition);
+    border-radius: rem(128);
+  }
+
+  &:hover .btn__helper {
+    opacity: 1;
+  }
 }

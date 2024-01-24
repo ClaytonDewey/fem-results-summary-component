@@ -3,10 +3,26 @@ import { Results, Summary } from '.';
 
 function App() {
   return (
-    <main className='container'>
-      <Results />
-      <Summary />
-    </main>
+    <>
+      <main className='container'>
+        <Results />
+        <Summary />
+      </main>
+      <footer class='attribution'>
+        Challenge by{' '}
+        <a
+          href='https://www.frontendmentor.io?ref=challenge'
+          rel='noreferrer'
+          target='_blank'>
+          Frontend Mentor
+        </a>
+        . Coded by{' '}
+        <a href='https://www.claytondewey.com' rel='noreferrer' target='_blank'>
+          Clayton Dewey
+        </a>
+        .
+      </footer>{' '}
+    </>
   );
 }
 
