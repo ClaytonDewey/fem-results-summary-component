@@ -57,5 +57,33 @@
   @include breakpoint(medium) {
     width: rem(368);
     border-radius: rem(32);
+    padding: rem(38) rem(54) rem(55);
+
+    &__header {
+      h1 {
+        font-size: var(--fs-med);
+      }
+    }
+    
+    &__score {
+      height: rem(200);
+      width: rem(200);
+      font-size: var(--fs-reg);
+
+      span {
+        font-size: var(--fs-xlarge);
+      }
+    }
+
+    &__body {
+      h2 {
+        font-size: rem(32);
+        margin-bottom: rem(14);
+      }
+
+      p {
+        font-size: var(--fs-reg);
+      }
+    }
   }
 }
