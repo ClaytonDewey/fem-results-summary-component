@@ -8,7 +8,7 @@ function App() {
         <Results />
         <Summary />
       </main>
-      <footer className='attribution'>
+      <footer className='attribution visually-hidden'>
         Challenge by{' '}
         <a
           href='https://www.frontendmentor.io?ref=challenge'

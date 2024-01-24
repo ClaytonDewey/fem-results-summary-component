@@ -29,7 +29,7 @@ body {
   margin: 0px auto;
   width: 100%;
   box-sizing: border-box;
-  background: var(--clr-pale-blue);
+  background: var(--clr-white);
 
   @include breakpoint(medium) {
     display: flex;
