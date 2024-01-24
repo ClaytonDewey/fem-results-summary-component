@@ -1,0 +1,17 @@
+@use '../util' as *;
+
+.summary {
+  @include flexcolumn;
+  align-items: flex-start;
+  padding: rem(24) rem(30) rem(30);
+
+  &__header {
+    h2 {
+      color: var(--clr-dark-gray-blue);
+      font-size: var(--fs-reg);
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: rem(24);
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@use '../util' as *;
+
+.card {
+  border-radius: rem(12);
+
+  &__container {
+    @include flexcolumn;
+    width: 100%;
+    gap: rem(16);
+    margin-bottom: rem(24);
+  }
+
+  &__summary {
+    @include flex;
+    gap: rem(12);
+    width: 100%;
+    font-size: var(--fs-small);
+    border-radius: rem(12);
+    padding: rem(17.5);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__score {
+    color: var(--clr-dark-gray-blue);
+    margin-left: auto;
+
+    span {
+      opacity: 0.5;
+    }
+  }
+
+  &--reaction {
+    border-radius: 12px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%
+      ),
+      var(--clr-primary-red);
+
+    .card__title {
+      color: var(--clr-primary-red);
+    }
+  }
+
+  &--memory {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%
+      ),
+      var(--clr-primary-yellow);
+
+    .card__title {
+      color: var(--clr-primary-yellow);
+    }
+  }
+
+  &--verbal {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%
+      ),
+      var(--clr-primary-teal);
+
+    .card__title {
+      color: var(--clr-primary-teal);
+    }
+  }
+
+  &--visual {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%
+      ),
+      var(--clr-primary-blue);
+
+    .card__title {
+      color: var(--clr-primary-blue);
+    }
+  }
+}

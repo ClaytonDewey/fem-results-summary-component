@@ -29,15 +29,13 @@
   // Gradients
   --gradient-main: linear-gradient(
     180deg,
-    #75f 0%,
-    var(--clr-light-slate-blue) 0.01%,
+    var(--clr-light-slate-blue) 0%,
     var(--clr-light-royal-blue) 100%
   );
   --gradient-circle: linear-gradient(
     180deg,
-    #4d21c9 0%,
-    var(--clr-persian-blue) 100%,
-    var(--clr-violet-blue) 100%
+    var(--clr-violet-blue) 0%,
+    var(--clr-persian-blue) 100%
   );
 
   // Font-sizes
@@ -45,11 +43,11 @@
   --fs-3xlarge: #{rem(48.832)};
   --fs-2xlarge: #{rem(39.06)};
   --fs-xlarge: #{rem(31.25)};
-  --fs-large: #{rem(25)};
-  --fs-med: #{rem(20)};
+  --fs-large: #{rem(56)};
+  --fs-med: #{rem(24)};
   --fs-reg: #{rem(18)};
-  --fs-small: #{rem(12.8)};
-  --fs-xsmall: #{rem(10.24)};
+  --fs-small: #{rem(16)};
+  --fs-xsmall: #{rem(11)};
 
   // Flexbox gap/columns
   --gap: #{rem(20)};

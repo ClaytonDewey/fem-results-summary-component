@@ -1,0 +1,11 @@
+@use '../util' as *;
+
+button {
+  @include flexcolumn;
+  width: 100%;
+  height: rem(56);
+  border: none;
+  background: var(--clr-dark-gray-blue);
+  color: var(--clr-white);
+  border-radius: rem(128);
+}

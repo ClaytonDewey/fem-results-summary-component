@@ -1,7 +1,7 @@
 @use '../util' as *;
 
 .attribution {
-  font-size: rem(11);
+  font-size: var(--fs-xsmall);
   text-align: center;
 }
 .attribution a {
