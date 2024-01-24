@@ -1,0 +1,57 @@
+@use '../util' as *;
+
+:root {
+  // Colors
+  // Primary
+  --clr-primary-red: hsl(0, 100%, 67%);
+  --clr-primary-yellow: hsl(39, 100%, 56%);
+  --clr-primary-teal: hsl(166, 100%, 37%);
+  --clr-primary-blue: hsl(234, 85%, 45%);
+
+  // Gradients
+  --clr-light-slate-blue: hsl(252, 100%, 67%); /*(background) */
+  --clr-light-royal-blue: hsl(241, 81%, 54%); /*(background) */
+
+  --clr-violet-blue: hsla(256, 72%, 46%, 1); /* (circle) */
+  --clr-persian-blue: hsla(241, 72%, 46%, 0); /* (circle) */
+
+  // Neutral
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-pale-blue: hsl(221, 100%, 96%);
+  --clr-light-lavender: hsl(241, 100%, 89%);
+  --clr-dark-gray-blue: hsl(224, 30%, 27%);
+
+  // Font-family
+  --ff-sans: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
+  --ff-mono: 'Source Code Pro', monospace;
+  --ff-serif: Cambria, Cochin, Georgia, serif;
+
+  // Gradients
+  --gradient-main: linear-gradient(
+    180deg,
+    #75f 0%,
+    var(--clr-light-slate-blue) 0.01%,
+    var(--clr-light-royal-blue) 100%
+  );
+  --gradient-circle: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    var(--clr-persian-blue) 100%,
+    var(--clr-violet-blue) 100%
+  );
+
+  // Font-sizes
+  --fs-4xlarge: #{rem(61.04)};
+  --fs-3xlarge: #{rem(48.832)};
+  --fs-2xlarge: #{rem(39.06)};
+  --fs-xlarge: #{rem(31.25)};
+  --fs-large: #{rem(25)};
+  --fs-med: #{rem(20)};
+  --fs-reg: #{rem(18)};
+  --fs-small: #{rem(12.8)};
+  --fs-xsmall: #{rem(10.24)};
+
+  // Flexbox gap/columns
+  --gap: #{rem(20)};
+  --columns: 2;
+}
